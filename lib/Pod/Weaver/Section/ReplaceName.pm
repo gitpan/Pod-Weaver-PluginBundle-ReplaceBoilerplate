@@ -1,13 +1,13 @@
 package Pod::Weaver::Section::ReplaceName;
 
-# ABSTRACT: Adds or replaces a NAME section with abstract.
+# ABSTRACT: Add or replace a NAME section with abstract.
 
 use Moose;
 
 extends 'Pod::Weaver::Section::Name';
 with 'Pod::Weaver::Role::SectionReplacer';
 
-our $VERSION = '0.99_01';
+our $VERSION = '0.99_02';
 
 sub default_section_name { 'NAME' }
 
@@ -20,13 +20,17 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::Section::ReplaceName - Adds or replaces a NAME section with abstract.
+Pod::Weaver::Section::ReplaceName - Add or replace a NAME section with abstract.
 
 =head1 VERSION
 
-version 0.99_01
+version 0.99_02
 
 =head1 OVERVIEW
+
+This section plugin provides the same behaviour as
+L<Pod::Weaver::Section::Name> but with the
+L<Pod::Weaver::Role::SectionReplacer> role applied.
 
 This section plugin will produce a hunk of Pod giving the name of the document
 as well as an abstract, like this:
@@ -35,9 +39,9 @@ as well as an abstract, like this:
 
   Some::Document - a document for some
 
-It will determine the name and abstract by inspecting the C<ppi_document> which
-must be given.  It will look for the first package declaration, and for a
-comment in this form:
+It will determine the name and abstract by inspecting the C<ppi_document>
+input parameter.
+It will look for the first package declaration, and for a comment in this form:
 
   # ABSTRACT: a document for some
 

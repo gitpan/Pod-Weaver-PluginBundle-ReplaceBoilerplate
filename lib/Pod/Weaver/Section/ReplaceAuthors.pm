@@ -1,13 +1,13 @@
 package Pod::Weaver::Section::ReplaceAuthors;
 
-# ABSTRACT: Replace a section listing authors.
+# ABSTRACT: Add or replace an AUTHOR or AUTHORS section.
 
 use Moose;
 
 extends 'Pod::Weaver::Section::Authors';
 with 'Pod::Weaver::Role::SectionReplacer';
 
-our $VERSION = '0.99_01';
+our $VERSION = '0.99_02';
 
 sub default_section_name { 'AUTHORS' }
 sub default_section_aliases { [ 'AUTHOR' ] }
@@ -21,22 +21,38 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::Section::ReplaceAuthors - Replace a section listing authors.
+Pod::Weaver::Section::ReplaceAuthors - Add or replace an AUTHOR or AUTHORS section.
 
 =head1 VERSION
 
-version 0.99_01
+version 0.99_02
 
 =head1 OVERVIEW
 
-This section adds a listing of the documents authors.  It expects a C<authors>
-input parameter to be an arrayref of strings.  If no C<authors> parameter is
-given, it will do nothing.  Otherwise, it produces a hunk like this:
+This section plugin provides the same behaviour as
+L<Pod::Weaver::Section::Authors> but with the
+L<Pod::Weaver::Role::SectionReplacer> role applied.
+
+It will add or replace a listing of the document's authors.
+It expects the C<authors> input parameter to be an arrayref of strings.
+If no C<authors> parameter is given, it will do nothing.
+Otherwise, it produces a hunk like this:
+
+  =head1 AUTHOR
+
+  Author <a@example.com>
+
+Or in the case of multiple authors:
 
   =head1 AUTHORS
 
-    Author One <a1@example.com>
-    Author Two <a2@example.com>
+  =over
+  
+  =item Author One <a1@example.com>
+
+  =item Author Two <a2@example.com>
+
+  =back
 
 =for readme stop
 

@@ -13,9 +13,9 @@ my $builder = Module::Build->new(
     add_to_cleanup      => [ 'Pod-Weaver-PluginBundle-ReplaceBoilerplate-*' ],
     requires       => {
         'Moose'          => 0,
-        'Moose::Autobox' => 0,
-        'Pod::Elemental' => 0,
-        'Pod::Weaver'    => 0,
+        'Moose::Autobox' => '0.11',
+        'Pod::Elemental' => '0.101620',
+        'Pod::Weaver'    => '3.101630',
         'Pod::Weaver::Role::SectionReplacer' => 0,
         'Software::License' => 0,
     },

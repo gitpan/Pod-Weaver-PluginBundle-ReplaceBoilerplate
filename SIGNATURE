@@ -14,20 +14,20 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 80204fb75174c8d4aa7338ecb5bec1c7318cf02b Build.PL
-SHA1 82b46dfdefde7bc2d2b77dee4d273d11e9443c64 Changes
+SHA1 88753299b080a95dfbfd5b3970710c2fff0340a7 Build.PL
+SHA1 fc48a97dbfcbd4300e387fc4f934dae8af885ac3 Changes
 SHA1 9e7ce673dd325c5ce8ef8bcde9c6c74dc53f8056 MANIFEST
-SHA1 d2342ec2162a6b4d9ec7beac8123f8a504e29e56 META.yml
-SHA1 dd8fa5b974101b27cc5e98c16cb29dc97e4b34bd README
+SHA1 f01ae53980e9b0bf6133faff7f7012e526ff215a META.yml
+SHA1 f6aefce41fcbe72dd1c9d8244062d6a852252e28 README
 SHA1 8c863cff849a320c09cc096284dae131544e3667 ignore.txt
-SHA1 0aa5fc3dd7988e4b733817edbf1f0b4ac1c8918e lib/Pod/Weaver/PluginBundle/ReplaceBoilerplate.pm
-SHA1 bf903c865756234311ccb11e04944322a26f4183 lib/Pod/Weaver/Section/ReplaceAuthors.pm
-SHA1 6eb7e9e29f3bf18422e812b65b7fc55d9bbc2c39 lib/Pod/Weaver/Section/ReplaceLegal.pm
-SHA1 907770844233ad5ad62a62637c7784dcc37bf15f lib/Pod/Weaver/Section/ReplaceName.pm
-SHA1 2db48d5dbbf966e13699e1642633c03a0ef90fa7 lib/Pod/Weaver/Section/ReplaceVersion.pm
+SHA1 066ed695f3e3d191c1a28f61cfcc9c768594bedc lib/Pod/Weaver/PluginBundle/ReplaceBoilerplate.pm
+SHA1 e390e7641410cadd7c8499703989b9f7d61f0020 lib/Pod/Weaver/Section/ReplaceAuthors.pm
+SHA1 ae78bfcddd7e6f8f71037282a114e93b78995d46 lib/Pod/Weaver/Section/ReplaceLegal.pm
+SHA1 1e9d4be65398e0fd017487638cda04586d90b03b lib/Pod/Weaver/Section/ReplaceName.pm
+SHA1 380bdb4b38b42ffc8f79365d5dc0a2235e230516 lib/Pod/Weaver/Section/ReplaceVersion.pm
 SHA1 cfecf00db558410ad7f543b27317edb1b4be626f t/00-load.t
-SHA1 568e9bfba22dd9118dde2a011183a205aa3f588d t/40-replace-section.t
-SHA1 7e14db1a8c7984fed48036f9f06234b3e6859134 t/50-replace-boilerplate.t
+SHA1 e0564aec61ae8a4729858fff18a8f0a767bc7c78 t/40-replace-section.t
+SHA1 aa126d1ce1a68b2c411f7290abc91bf1240c1c58 t/50-replace-boilerplate.t
 SHA1 57db22b18a2045d4776a6434e6b106922ef3a319 t/90-check-changes.t
 SHA1 dcf6c7fef5befbc5b8f754de3da707c0fbc22ae9 t/91-fixme.t
 SHA1 98cdccf1120f3c9b445d6bcfaa10339a9c821d54 t/92-hasversion.t
@@ -53,7 +53,7 @@ SHA1 f416c91e43262b1f16a2ab48b4fc41d6d291ad47 weaver.ini
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkyM7cMACgkQk0asf7iG0tQLSACcCqz60CCdtmByCjTWLMNuA8gH
-AssAoIpiLYBphLnAaQ4bFSrm9LWMoF7c
-=5Q/n
+iEYEARECAAYFAkyOIbcACgkQk0asf7iG0tQhcQCeL9kVfYyq/NeRfG1EMmTP/w5U
+pZ0Anir8BAMdln+bV9/vL3+UvIyfCvs8
+=547Z
 -----END PGP SIGNATURE-----

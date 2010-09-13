@@ -2,12 +2,12 @@ package Pod::Weaver::Section::ReplaceVersion;
 
 use Moose;
 
-# ABSTRACT: Replace a VERSION pod section.
+# ABSTRACT: Add or replace a VERSION section.
 
 extends 'Pod::Weaver::Section::Version';
 with 'Pod::Weaver::Role::SectionReplacer';
 
-our $VERSION = '0.99_01';
+our $VERSION = '0.99_02';
 
 sub default_section_name { 'VERSION' }
 
@@ -21,15 +21,19 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::Section::ReplaceVersion - Replace a VERSION pod section.
+Pod::Weaver::Section::ReplaceVersion - Add or replace a VERSION section.
 
 =head1 VERSION
 
-version 0.99_01
+version 0.99_02
 
 =head1 OVERVIEW
 
-This section plugin will produce a hunk of Pod meant to indicate the version of
+This section plugin provides the same behaviour as
+L<Pod::Weaver::Section::Version> but with the
+L<Pod::Weaver::Role::SectionReplacer> role applied.
+
+It will produce a hunk of Pod meant to indicate the version of
 the document being viewed, like this:
 
   =head1 VERSION
