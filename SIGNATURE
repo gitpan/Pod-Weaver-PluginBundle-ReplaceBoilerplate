@@ -15,16 +15,16 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 88753299b080a95dfbfd5b3970710c2fff0340a7 Build.PL
-SHA1 fc48a97dbfcbd4300e387fc4f934dae8af885ac3 Changes
+SHA1 e0ae293ddfde3bab229618e6634fe8167433b978 Changes
 SHA1 9e7ce673dd325c5ce8ef8bcde9c6c74dc53f8056 MANIFEST
-SHA1 f01ae53980e9b0bf6133faff7f7012e526ff215a META.yml
-SHA1 f6aefce41fcbe72dd1c9d8244062d6a852252e28 README
+SHA1 338757ecd0449a35e47f064a4ae4ea5d5ee946e2 META.yml
+SHA1 99b42ffa3f26a0ea9853e3eb25ddb2016a3a1fe4 README
 SHA1 8c863cff849a320c09cc096284dae131544e3667 ignore.txt
-SHA1 066ed695f3e3d191c1a28f61cfcc9c768594bedc lib/Pod/Weaver/PluginBundle/ReplaceBoilerplate.pm
-SHA1 e390e7641410cadd7c8499703989b9f7d61f0020 lib/Pod/Weaver/Section/ReplaceAuthors.pm
-SHA1 ae78bfcddd7e6f8f71037282a114e93b78995d46 lib/Pod/Weaver/Section/ReplaceLegal.pm
-SHA1 1e9d4be65398e0fd017487638cda04586d90b03b lib/Pod/Weaver/Section/ReplaceName.pm
-SHA1 380bdb4b38b42ffc8f79365d5dc0a2235e230516 lib/Pod/Weaver/Section/ReplaceVersion.pm
+SHA1 f7f3470994e5defc890c6cc781670aab2bca606f lib/Pod/Weaver/PluginBundle/ReplaceBoilerplate.pm
+SHA1 8aaccb78b0ec1f61979388c447fffd3ec29063a8 lib/Pod/Weaver/Section/ReplaceAuthors.pm
+SHA1 8a89226611e245bad5845f12559e0a225f0c7f0a lib/Pod/Weaver/Section/ReplaceLegal.pm
+SHA1 eb22f4b5638fe5b5c858e572dd2c3e4fa6f4efc3 lib/Pod/Weaver/Section/ReplaceName.pm
+SHA1 82725335fd7e8b1cee6e34ade0ffe6d09e4c0a92 lib/Pod/Weaver/Section/ReplaceVersion.pm
 SHA1 cfecf00db558410ad7f543b27317edb1b4be626f t/00-load.t
 SHA1 e0564aec61ae8a4729858fff18a8f0a767bc7c78 t/40-replace-section.t
 SHA1 aa126d1ce1a68b2c411f7290abc91bf1240c1c58 t/50-replace-boilerplate.t
@@ -53,7 +53,7 @@ SHA1 f416c91e43262b1f16a2ab48b4fc41d6d291ad47 weaver.ini
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkyOIbcACgkQk0asf7iG0tQhcQCeL9kVfYyq/NeRfG1EMmTP/w5U
-pZ0Anir8BAMdln+bV9/vL3+UvIyfCvs8
-=547Z
+iEYEARECAAYFAkyQikoACgkQk0asf7iG0tTRAgCfajroBjwc8iW2MTX4jwyhravk
+PfYAoJNDY+P9R+fePBDj6V+LF0OViStD
+=jrdr
 -----END PGP SIGNATURE-----
